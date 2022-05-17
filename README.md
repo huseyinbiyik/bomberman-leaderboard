@@ -1,1 +1,1 @@
-# leaderboard
+# webpack-boilerplate
