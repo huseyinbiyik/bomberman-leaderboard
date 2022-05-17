@@ -9,9 +9,11 @@ h1 {
   width: 100%;
   text-align: center;
 }
+
 .display-container {
   width: 20%;
 }
+
 .input-container {
   width: 20%;
 }
@@ -20,7 +22,7 @@ h1 {
   border: 1px solid black;
 }
 
-.display-heading{
+.display-heading {
   display: flex;
   justify-content: center;
   align-items: center;
