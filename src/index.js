@@ -2,7 +2,7 @@ import './style.css';
 import fetchData from './modules/fetchData.js';
 import postData from './modules/postData.js';
 
-// API "Game with ID: h2cnapwtxerd23BLvb63
+// API "Game with ID: lQk6PtMS8WHtKZi99VDH
 
 const refreshButton = document.querySelector('#refresh-button');
 const addScoreForm = document.querySelector('#add-score');

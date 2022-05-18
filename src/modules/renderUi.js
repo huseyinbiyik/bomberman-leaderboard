@@ -9,6 +9,6 @@ const renderUi = (object) => {
   const scoreArrray = object.result;
   scoreArrray.sort((a, b) => b.score - a.score);
   scoreArrray.forEach(renderItems);
-}
+};
 
 export default renderUi;
