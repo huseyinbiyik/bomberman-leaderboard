@@ -1,7 +1,11 @@
 const displayBoard = document.querySelector(".display-board");
-export function renderUi(items) {
+export function renderUi(object) {
   displayBoard.innerHTML = "";
-  items.result.forEach(renderItems);
+  let scoreArrray = object.result;
+  scoreArrray.sort(function (a, b) {
+    return a.score - b.score;
+  });
+  scoreArrray.forEach(renderItems);
 }
 
 let renderItems = (item) => {
