@@ -1,5 +1,5 @@
-export function postData(name, score) {
-  fetch(
+export async function postData(name, score) {
+  await fetch(
     "https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/h2cnapwtxerd23BLvb63/scores",
     {
       method: "POST",

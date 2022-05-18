@@ -3,7 +3,7 @@ export function renderUi(object) {
   displayBoard.innerHTML = "";
   let scoreArrray = object.result;
   scoreArrray.sort(function (a, b) {
-    return a.score - b.score;
+    return b.score - a.score;
   });
   scoreArrray.forEach(renderItems);
 }

@@ -22,5 +22,3 @@ addScoreForm.onsubmit = (e) => {
   postData(name, score);
   addScoreForm.reset();
 };
-
-
