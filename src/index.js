@@ -1,13 +1,13 @@
-import "./style.css";
-import { fetchData } from "./modules/fetchData";
-import { postData } from "./modules/postData";
+import './style.css';
+import fetchData from './modules/fetchData.js';
+import postData from './modules/postData.js';
 
 // API "Game with ID: h2cnapwtxerd23BLvb63
 
-const refreshButton = document.querySelector("#refresh-button");
-const addScoreForm = document.querySelector("#add-score");
-const inputName = document.querySelector("#name");
-const inputScore = document.querySelector("#score");
+const refreshButton = document.querySelector('#refresh-button');
+const addScoreForm = document.querySelector('#add-score');
+const inputName = document.querySelector('#name');
+const inputScore = document.querySelector('#score');
 
 refreshButton.onclick = () => {
   fetchData();

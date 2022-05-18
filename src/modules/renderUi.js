@@ -1,13 +1,12 @@
-const displayBoard = document.querySelector(".display-board");
-export function renderUi(object) {
-  displayBoard.innerHTML = "";
-  let scoreArrray = object.result;
-  scoreArrray.sort(function (a, b) {
-    return b.score - a.score;
-  });
-  scoreArrray.forEach(renderItems);
-}
+const displayBoard = document.querySelector('.display-board');
 
-let renderItems = (item) => {
+const renderItems = (item) => {
   displayBoard.innerHTML += `<p>${item.user}: ${item.score}</p>`;
 };
+
+export default function renderUi(object) {
+  displayBoard.innerHTML = '';
+  const scoreArrray = object.result;
+  scoreArrray.sort((a, b) => b.score - a.score);
+  scoreArrray.forEach(renderItems);
+}
