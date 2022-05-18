@@ -11,21 +11,18 @@
       <section class="display-container">
         <header class="display-heading">
           <h2>Recent Scores</h2>
-          <button type="submit">Refresh</button>
+          <button id="refresh-button" type="submit">Refresh</button>
         </header>
         <div class="display-board">
-          <p>Name: 100</p>
-          <p>Name: 100</p>
-          <p>Name: 100</p>
-          <p>Name: 100</p>
+          
         </div>
       </section>
 
       <section class="input-container">
         <header><h2>Add your score</h2></header>
-        <form>
-          <input type="text" placeholder="Your name" />
-          <input type="text" placeholder="Your score" />
+        <form id="add-score">
+          <input id="name" type="text" placeholder="Your name" minlength="1" maxlength="20"/>
+          <input id="score" type="number" placeholder="Your score" min="0" max="999999" />
           <button type="submit">Submit</button>
         </form>
       </section>
