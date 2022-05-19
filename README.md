@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# leaderboard
+# bomberman leaderboard
 
-> 
+> bomberman leaderboard is an web app which you can add your best score on classic Bomberman Atari game. You can check all the other scores from the players all around the world!
 
 ## Built With
 
@@ -10,6 +10,11 @@
 - CSS3
 - JavaScript
 - Webpack
+- ES6
+- Free Game API
+
+## Live Link
+You can find the live version on this link: [bomberman leaderboard](https://huseyinbiyik.github.io/bomberman-leaderboard)
 
 ## Getting Started
 
@@ -32,7 +37,7 @@ No need to install. Open the index.html file with a browser.
 
 ### Usage
 
-You can navigate through the navigation bar to see the different pages.
+You can add your score to the board using input field on the right of the screen and show them on the displaying section on the left.
 
 ## Authors
 
