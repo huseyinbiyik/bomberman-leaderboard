@@ -68,8 +68,17 @@ main {
 
 button {
   font-family: inherit;
-  border: 4px solid #287e05;
-  padding: 10px;
+  border: none;
+  padding: 15px 25px;
+  outline: none;
+  background-color: #287e05;
+  box-shadow: 0 3px #999;
+}
+
+button:active {
+  background-color: #287e05;
+  box-shadow: 0 3px #666;
+  transform: translateY(1px);
 }
 
 .display-heading {
