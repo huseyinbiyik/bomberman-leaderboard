@@ -14,7 +14,7 @@
 - Free Game API
 
 ## Live Link
-You can find the live version on this link: [bomberman leaderboard](https://huseyinbiyik.github.io/bomberman-leaderboard)
+You can find the live version on this link: 💣[bomberman leaderboard](https://huseyinbiyik.github.io/bomberman-leaderboard)💣
 
 ## Getting Started
 
