@@ -8,9 +8,8 @@ html {
 
 body {
   background-image: url(assets/bomberman.gif);
-  background-size: cover;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position-x: center;
   background-color: #a69ea5;
 }
@@ -23,11 +22,12 @@ select {
 
 h1 {
   text-align: center;
-  color: #287e05;
+  color: black;
 }
 
 h2 {
   color: white;
+  text-align: left;
 }
 
 main {
@@ -52,6 +52,8 @@ main {
 
 .display-board {
   border-top: 5px solid #a69ea5;
+  max-height: 80vh;
+  overflow: scroll;
 }
 
 .display-board p {
@@ -66,7 +68,7 @@ main {
 
 button {
   font-family: inherit;
-  border: 4px solid #97ede1;
+  border: 4px solid #287e05;
   padding: 10px;
 }
 
@@ -79,7 +81,6 @@ button {
 
 input {
   width: calc(100% - 14px);
-  margin-bottom: 10px;
   height: 20px;
   margin-bottom: 15px;
 }

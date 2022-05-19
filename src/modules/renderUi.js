@@ -1,7 +1,7 @@
 const displayBoard = document.querySelector('.display-board');
 
-const renderItems = (item) => {
-  displayBoard.innerHTML += `<p>${item.user}: ${item.score}</p>`;
+const renderItems = (item, index) => {
+  displayBoard.innerHTML += `<p>${index+1}-${item.user}: ${item.score}</p>`;
 };
 
 const renderUi = (object) => {
